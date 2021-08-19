@@ -8,8 +8,6 @@ COPY . /app
 
 RUN npm install
 
-COPY . /app
-
 RUN npm run build
 
 #stage 2
