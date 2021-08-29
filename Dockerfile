@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #stage 1
 FROM node:14.17-alpine3.14 as build-step
 RUN mkdir /app
