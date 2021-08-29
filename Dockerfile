@@ -5,7 +5,7 @@ WORKDIR /app
 COPY . /app
 RUN npm -g install npm@6.14.3
 RUN npm install
-RUN npm build
+RUN npm run build
 
 
 #stage 2
